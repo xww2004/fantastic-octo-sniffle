@@ -12,7 +12,7 @@ db.init_app(app)
 
 @app.route("/api/health", methods=["GET"])
 def health():
-    return jsonify({"status": "ok"})
+    return jsonify({"status": "ok123"})
 
 
 @app.route("/api/todos", methods=["GET"])
